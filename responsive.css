@@ -1,0 +1,24 @@
+@media screen and (width: 100vw) {
+
+
+    .container,
+    nav,
+    main,
+    footer {
+        max-width: 810px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 810px) {
+
+    .container,
+    nav,
+    main,
+    footer {
+        max-width: 810px;
+        margin: auto;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+}

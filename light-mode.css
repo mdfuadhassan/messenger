@@ -1,0 +1,57 @@
+:root {
+    --body-bg-color: white;
+    --text-color: black;
+
+    /* ---HEADER---- */
+    --nav-logo-icon-color: black;
+    --icon-bg-color: rgb(236, 236, 236);
+
+    --search-box-text-icon-color: rgb(125, 127, 130);
+    --search-box-bg-color: rgb(236, 236, 236);
+
+    --start-call-icon-color: rgb(255, 255, 255);
+    --horizontal-scroll-bar-text-color: rgb(24, 25, 26);
+
+    /* ---Main part--- */
+    --chat-list-text-color: rgb(24, 25, 26);
+    --text-time-container-color: rgb(24, 25, 26);
+    --chat-list-mute-active-icon-color: rgb(24, 25, 26);
+    --chat-list-profile-border-color: rgb(50, 111, 254);
+
+    --calls-text-time-container-text-color: rgb(176, 179, 184);
+
+    --people-p-1-color: rgb(24, 25, 26);
+
+    --calls-chats-container-id-name-color: rgb(24, 25, 26);
+
+    /* ----Footer--- */
+    --footer-part-icon-hover-color: rgb(50, 111, 254);
+    --footer-icon-color: rgb(176, 179, 184);
+}
+
+
+/* ===Light Mode People Page=== */
+main>.middle-section-container>.p-1 {
+    color: var(--people-p-1-color);
+}
+
+
+/* ===Light Mode Calls Page=== */
+main>.chats-container>.chats>#calls-text-time-container {
+    color: var(--calls-text-time-container-text-color);
+}
+
+/* ===Light Mode Calls Chats in Id Name=== */
+main>.chats-container>.chats>.id-name {
+    color: var(--chats-container-id-name-color);
+}
+
+/* ==chats Light Mode Mute Active Icon color== */
+main>.chats-container>.mute-active {
+    color: var(--footer-icon-color);
+}
+
+/* === Calls Light Mode Call Icon=== */
+main>.chats-container>.light-mode-call-icon>i {
+    color: var(--chat-list-mute-active-icon-color);
+}

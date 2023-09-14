@@ -1,0 +1,54 @@
+:root {
+    --text-color-gray: rgb(125, 127, 130);
+    --white-color: rgb(255, 255, 255);
+    --button-bg-color: rgb(45, 119, 255);
+}
+
+body,
+.container {
+    height: 100vh;
+}
+
+main>.active-now {
+    color: var(--text-color-gray);
+    font-size: 1rem;
+    padding: 15px 15px;
+}
+main>.middle-section-container {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* background: red; */
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+main>.middle-section-container>.p-1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+main>.middle-section-container>.p-2 {
+    font-size: .8rem;
+    color: var(--text-color-gray);
+}
+
+main>.middle-section-container>button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--white-color);
+    background:var(--button-bg-color);
+    border: none;
+
+}

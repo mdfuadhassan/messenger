@@ -1,0 +1,33 @@
+:root {
+    --icon-bg-color: rgb(58, 59, 60);
+    --chats-id-name-color: rgb(255, 255, 255);
+    --mute-active-call-icon-color: rgb(255, 255, 255);
+}
+
+
+main>.chats-container>.profile-img {
+    border: none;
+    padding: none;
+    height: 45px;
+    width: 45px;
+}
+
+main>.chats-container>.chats>.text-time-container {
+    font-size: .8rem;
+}
+
+main>.chats-container>.chats>.id-name {
+    color: var(--chats-id-name-color);
+}
+
+main>.chats-container>.mute-active>i {
+    background: var(--icon-bg-color);
+    color: var(--mute-active-call-icon-color);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    font-size: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
